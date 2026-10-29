@@ -1,0 +1,23 @@
+---
+title: "GitHub Advanced"
+author: "Melissa Gonzalez- Ortiz"
+format: html
+execute:
+  echo: false
+---
+
+```{r}
+#| label: setup
+#| message: false
+library(tidyverse)
+```
+
+```{r}
+ggplot(mtcars, aes(x = wt, y = mpg)) +
+  geom_point() +
+  labs(
+    title = "Vehicle weight and fuel economy",
+    x = "Weight (1000 lbs)",
+    y = "Miles per gallon"
+  )
+```
