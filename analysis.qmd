@@ -21,3 +21,5 @@ ggplot(mtcars, aes(x = wt, y = mpg)) +
     y = "Miles per gallon"
   )
 ```
+
+This line was written on a second machine.
